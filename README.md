@@ -1,4 +1,4 @@
-# liwindow
+# lilightbox
 Custom Img Lightbox Vanilla JS
 
 [Ver tutorial](https://neuralpin.com/frontend/lightbox) - 
