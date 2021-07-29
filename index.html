@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Img Lightbox Vanilla JS</title>
+    <link rel="stylesheet" href="src/lilightbox.css">
+</head>
+<body>
+    <main>
+        <h1>Custom Img Lightbox Vanilla JS</h1>
+        <a class="mylbselector" href="https://picsum.photos/id/1/760/360" rel="https://picsum.photos/id/1/760/360"><img src="https://picsum.photos/id/1/400/300"></a>
+
+        <a class="mylbselector" href="https://picsum.photos/id/11/760/360" rel="https://picsum.photos/id/11/760/360"><img src="https://picsum.photos/id/11/400/300"></a>
+
+        <a class="mylbselector" href="https://picsum.photos/id/12/760/360" rel="https://picsum.photos/id/12/760/360"><img src="https://picsum.photos/id/12/400/300"></a>
+
+        <p><a href="https://neuralpin.com/frontend/lightbox">Ver tutorial</a> - <a href="https://codepen.io/fdulises/pen/XWRKrbW">Editar en Codepen</a> - <a href="https://github.com/neuralpin/lilightbox">Descargar desde Github</a></p>
+    </main>
+    <script src="src/lilightbox.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            //Img lightbox
+            new lilightbox('.mylbselector');
+
+        });
+    </script>
+</body>
+</html>
